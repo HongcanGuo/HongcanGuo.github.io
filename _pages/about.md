@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 Hi everyone, I'm Hongcan Guo, a Mathematics and Artificial Intelligence LOVER！ This is my home, and I'll be sharing some updates about my research life here. Welcome to visit!
+I'm a third year undergraduate student from [School of AI](https://ai.bupt.edu.cn/), [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/). My research interest includes pattern recognition, machine learning, natural language processing and mathematics.
+
 
 A data-driven personal website
 ======

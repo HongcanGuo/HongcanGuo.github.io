@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This is the web page of Hongcan Guo"
+title: "Hongcan Guo"
 author_profile: true
 redirect_from: 
   - /about/
@@ -23,12 +23,15 @@ Latest Research Directions
 1. Construct a new interpretable neural network construction.
 
 **Lightweighting and distributed deployment of Large Language Models**
+
 Physical deployment using methods related to model compression is under preparation and is expected to be submitted to Mobicom at the end of August.
 
 **Optimizing LoRa algorithm**
+
 I'm trying a simple experiment, the idea is not yet mature, and I mainly want to start with dynamic optimization of algorithms.
 
 **New interpretable neural network**
+
 Combining algebra method, I want to construct an interpretable neural network which is more consistent with bionics and human thinking mode.
 
 STATUS

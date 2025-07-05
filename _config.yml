@@ -24,17 +24,17 @@ author:
   avatar           : "ghc.png"
   name             : "Hongcan Guo"
   pronouns         : "he/him"  
-  bio              : "A Mathematics and Artificial Intelligence LOVER！"
+  bio              : "Do not multiply entities beyond necessity."
   location         : "Earth"
-  employer         : "Beijing University of Posts and Telecommunications"
+  employer         : "BUPT"
   uri              : # URL
   email            : "hongcanguo@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=-hKl_DUAAAAJ&hl=zh-CN"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0001-6490-9630"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL

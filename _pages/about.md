@@ -7,33 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-Hi everyone, I'm Hongcan Guo, a Mathematics and Artificial Intelligence LOVER！ This is my home, and I'll be sharing some updates about my research life here. Welcome to visit!
-I'm a third year undergraduate student from [School of AI](https://ai.bupt.edu.cn/), [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/). My research interest includes pattern recognition, machine learning, natural language processing and mathematics.
+Hello everyone, I'm Hongcan Guo, a mathematics and artificial intelligence enthusiast! This is my homepage, where I will share some of the latest updates about my research life. Welcome!
 
+I am an undergraduate student from the [School of Artificial Intelligence](https://ai.bupt.edu.cn/) at Beijing University of Posts and Telecommunications (BUPT). Currently, I am a research intern at [ByteDance Seed Vision](https://seed.bytedance.com/en/direction/vision). My research interests include, but are not limited to, Natural Language Processing, Reinforcement Learning, Generative Models, Unsupervised Learning, and Mathematics.
+
+I am currently applying for PhD programs for Fall 2026. If you are a professor interested in my profile, please feel free to contact me at [Email](ai.guohc@bupt.edu.cn).
 
 RECENT NEWS
 ======
-+ Contributed a JSAC paper, completed the algorithm design, framework design and LLM-related experimental parts of it, and had a great time!
-+ Finished a small little app for generating videos from images and text-InspiroV, which has been open-sourced to [Hugging Face](https://huggingface.co/spaces/HongcanGuo/InspiroV), feel free to use it!
++ [2025.06.26] One paper was accepted to ICCV 2025.
++ [2025.06.09] One paper was accepted to JSAC.
++ [2025.03.22] One paper was accepted to JSAC.
 
 Latest Research Directions
 ======
-1. Lightweighting and distributed deployment of Large Language Models.
-1. Optimizing LoRa algorithm through dynamic algorithm and matrix calculation.
-1. Construct a new interpretable neural network construction.
+1. **LLM Pre-training:** Techniques for LLM pre-training, including the complete training pipeline, data composition strategies, model architecture, algorithms, and key observational metrics.
+1. **LLM Post-training:** Full-stack optimization of LLMs via SFT, RL, and efficient fine-tuning.
+1. **Novel LLM Architecture Design:** Focus on novel architectures like Mixture-of-Experts (MoE) and Diffusion LLMs to push the boundaries of foundation models in scale, performance, and generalization.
+1. **Reasoning Enhancement:** Reinforcement learning-based methods for enhancing reasoning in multimodal LLMs, committed to achieving the goal of Artificial Super Intelligence (ASI).
+1. **Unified Architecture for Generation and Understanding:** Explore unified architectures that go beyond full-modal understanding and generation, committed to achieving the goal of Artificial General Intelligence (AGI).
+1. **Autonomous Learning Frameworks:** Novel learning paradigms beyond traditional supervised/RL settings, including multi-agent collaboration and unsupervised automation.
 
-**Lightweighting and distributed deployment of Large Language Models**
-
-Physical deployment using methods related to model compression is under preparation and is expected to be submitted to Mobicom at the end of August.
-
-**Optimizing LoRa algorithm**
-
-I'm trying a simple experiment, the idea is not yet mature, and I mainly want to start with dynamic optimization of algorithms.
-
-**New interpretable neural network**
-
-Combining algebra method, I want to construct an interpretable neural network which is more consistent with bionics and human thinking mode.
 
 STATUS
 ======
-Final exam week, exhausted! QAQ
+Busy with PhD applications for Fall 2026.

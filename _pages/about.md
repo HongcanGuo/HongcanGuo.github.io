@@ -32,3 +32,7 @@ Latest Research Directions
 STATUS
 ======
 Busy with PhD applications for Fall 2026.
+
+Visitors
+======
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=nOhSZKPI_B9mrQYVl2I_lsyLHuZGBO1Pk9neTUvi7eE&cl=ffffff&w=a"></script>

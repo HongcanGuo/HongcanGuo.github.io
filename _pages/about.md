@@ -11,13 +11,12 @@ Hello everyone, I'm Hongcan Guo, a mathematics and artificial intelligence enthu
 
 I am an undergraduate student from the [School of Artificial Intelligence](https://ai.bupt.edu.cn/) at Beijing University of Posts and Telecommunications (BUPT). Currently, I am a research intern at [ByteDance Seed Vision](https://seed.bytedance.com/en/direction/vision). My research interests include, but are not limited to, Natural Language Processing, Reinforcement Learning, Generative Models, Unsupervised Learning, and Mathematics.
 
-<span style="color: red; font-size: larger;">I am currently applying for PhD programs for Fall 2026. If you are a professor interested in my profile, please feel free to contact me at [Email](ai.guohc@bupt.edu.cn).</span>
-
 RECENT NEWS
 ======
-+ [2025.06.26] One paper was accepted to ICCV 2025.
-+ [2025.06.09] One paper was accepted to JSAC.
-+ [2025.03.22] One paper was accepted to JSAC.
++ [2025.09.19] One paper was accepted to <font color="red">NeurIPS 2025 as oral</font>.
++ [2025.06.26] One paper was accepted to <font color="red">ICCV 2025</font>.
++ [2025.06.09] One paper was accepted to <font color="red">JSAC</font>.
++ [2025.03.22] One paper was accepted to <font color="red">JSAC</font>.
 
 Latest Research Directions
 ======
@@ -31,7 +30,7 @@ Latest Research Directions
 
 STATUS
 ======
-<span style="color: red; font-size: larger;">Busy with PhD applications for Fall 2026.</span>
+Busy with some research about unified model.
 
 Visitors
 ======

@@ -21,7 +21,7 @@ repository               : "HongcanGuo/HongcanGuo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ghc.png"
+  avatar           : "me.jpg"
   name             : "Hongcan Guo"
   pronouns         : "he/him"  
   bio              : "Do not multiply entities beyond necessity."

@@ -420,6 +420,18 @@ header {
     height: auto;
 }
 
+.motto {
+    font-family: 'Times New Roman', serif; /* 保持与正文一致的衬线字体 */
+    font-style: italic;                    /* 倾斜以表示引用/格言 */
+    font-size: 1.15em;                     /* 字体稍大 */
+    color: #666;                           /* 颜色比标题浅，比正文深 */
+    margin-top: 0px;                       /* 调整顶部间距 */
+    margin-bottom: 20px;                   /* 底部留出呼吸空间 */
+    padding-left: 12px;                    /* 左侧内边距 */
+    border-left: 3px solid var(--link-color); /* 左侧加一条主题色的竖线 */
+    line-height: 1.4;
+    opacity: 0.9;
+}
 
 /* --- 手机适配 --- */
 @media (max-width: 768px) {

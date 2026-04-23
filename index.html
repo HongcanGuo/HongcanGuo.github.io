@@ -1,209 +1,288 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hongcan Guo (郭泓灿)</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Noto+Serif+SC:wght@700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="description" content="Hongcan Guo — undergraduate researcher at BUPT, research intern at ByteDance Seed Vision. Interests: NLP, RL, Generative Models, Unsupervised Learning, Mathematics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,30..100,0..1;1,9..144,400..600,30..100,0..1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <div class="nav-wrapper">
-            <a href="index.html" class="nav-brand hidden">Hongcan Guo</a>
-            <nav class="nav-links">
-                <a href="index.html" class="active">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="publications.html">Publications</a>
-                </nav>
+<nav class="site-nav" aria-label="Primary">
+    <div class="nav-wrapper">
+        <a href="index.html" class="nav-brand"><span class="dot" aria-hidden="true"></span>Hongcan Guo</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">About</a>
+            <a href="publications.html">Publications</a>
+            <a href="blog.html">Blog</a>
         </div>
-    </header>
+    </div>
+</nav>
 
-<section class="profile-container">
-        <div class="bio-text">
-            <div class="name-title">Hongcan Guo <span class="chinese-name">郭泓灿</span></div>
-            <div class="motto">
-                "Numquam ponenda est pluralitas sine necessitate"
-            </div>
-            <p>
-                <i class="fas fa-graduation-cap"></i> <strong>Undergraduate Student</strong><br>
-                <i class="fas fa-university"></i> Beijing University of Posts and Telecommunications (BUPT)<br>
-                <i class="fas fa-flask"></i> ByteDance Seed Vision
-            </p>
-            <p>
-                Hello everyone, I'm Hongcan Guo, a mathematics and artificial intelligence enthusiast! This is my homepage, where I will share some of the latest updates about my research life. Welcome!
-                <br><br>
-                I am an undergraduate student from the <a href="https://ai.bupt.edu.cn/">School of Artificial Intelligence</a> at Beijing University of Posts and Telecommunications (BUPT). Currently, I am a research intern at <a href="https://seed.bytedance.com/en/direction/vision">ByteDance Seed Vision</a>. My research interests include, but are not limited to, Natural Language Processing, Reinforcement Learning, Generative Models, Unsupervised Learning, and Mathematics.
-            </p>
-            <div class="social-icons">
-                <a href="mailto:hongcanguo@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/hongcanguo" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://scholar.google.com/citations?user=-hKl_DUAAAAJ&hl=zh-CN" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-                <a href="#" target="_blank" title="Twitter"><i class="fab fa-x-twitter"></i></a>
-                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-        <img src="images/me.jpg" alt="Hongcan Guo" class="profile-photo">
-    </section>
+<main>
+    <div class="wrap">
 
-<section id="news">
-        <h2>News</h2>
-        <ul class="std-list">
-            <li><span class="date-tag">2025/11/08</span> One paper was accepted to&nbsp;<strong> AAAI 2026 </strong>&nbsp; <span style="color:#e53935; font-weight:bold;">as oral</span>.</li>
-            <li><span class="date-tag">2025/09/19</span> One paper was accepted to&nbsp;<strong> NeurIPS 2025 </strong>&nbsp; <span style="color:#e53935; font-weight:bold;">as oral</span>.</li>
-            <li><span class="date-tag">2025/06/26</span> One paper was accepted to&nbsp;<strong> ICCV 2025 </strong>.</li>
-            <li><span class="date-tag">2025/06/09</span> One paper was accepted to&nbsp;<strong> JSAC </strong>.</li>
-            <li><span class="date-tag">2025/03/22</span> One paper was accepted to&nbsp;<strong> JSAC </strong>.</li>
-        </ul>
-    </section>
+        <!-- Hero -->
+        <section class="hero" id="about">
+            <div class="bio">
+                <div class="hero-eyebrow">Undergraduate · Research Intern</div>
+                <h1 class="name-title">Hongcan Guo<span class="chinese-name">郭泓灿</span></h1>
+                <div class="affiliation">
+                    Beijing University of Posts and Telecommunications
+                    <span class="sep">/</span>
+                    ByteDance Seed Vision
+                </div>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="experience-item">
-            <div class="logo-box">
-                <img src="images/bupt_logo.png" alt="Undergrad Logo"> </div>
-            <div class="exp-details">
-                <div class="exp-title">Beijing University of Posts and Telecommunications (BUPT)</div>
-                <div class="exp-subtitle">B.E. in Artificial Intelligence</div>
-                <div class="exp-date">2022 - Present</div>
-            </div>
-        </div>
-    </section>
+                <blockquote class="motto">
+                    “Numquam ponenda est pluralitas sine necessitate.”
+                    <cite>— William of Ockham</cite>
+                </blockquote>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <div class="logo-box">
-                <img src="images/bytedance_logo.svg" alt="Seed Logo"> </div>
-            <div class="exp-details">
-                <div class="exp-title">Bytedance Seed</div>
-                <div class="exp-subtitle">Research Intern</div>
-                <div class="exp-date">2025.6 - Present</div>
-                <div style="font-size:0.9em; color:#666; margin-top:5px;">
-                    Worked on diffusion model for unified generate task.
+                <p class="lede">
+                    I am an undergraduate at the
+                    <a href="https://ai.bupt.edu.cn/">School of Artificial Intelligence</a>,
+                    BUPT, and a research intern at
+                    <a href="https://seed.bytedance.com/en/direction/vision">ByteDance Seed Vision</a>.
+                    I study the mathematical foundations and learning dynamics of modern
+                    generative and reasoning models — with a soft spot for elegant formulations.
+                </p>
+                <p>
+                    This site collects my research updates, publications, and occasional
+                    notes. Please feel free to reach out.
+                </p>
+
+                <div class="interests">
+                    <span class="label">Interests</span>
+                    <span class="item">Natural Language Processing</span>
+                    <span class="item">Reinforcement Learning</span>
+                    <span class="item">Generative Models</span>
+                    <span class="item">Unsupervised Learning</span>
+                    <span class="item">Mathematics</span>
+                </div>
+
+                <div class="social-icons">
+                    <a href="mailto:hongcanguo@gmail.com" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/hongcanguo" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=-hKl_DUAAAAJ&hl=zh-CN" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                    <a href="#" target="_blank" rel="noopener" title="Twitter" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-        </div>
-        <div class="experience-item">
-            <div class="logo-box">
-                <img src="images/teleai_logo.jpeg" alt="Teleai Logo"> </div>
-            <div class="exp-details">
-                <div class="exp-title">The Institute of Artificial Intelligence, China Telecom (TeleAI)</div>
-                <div class="exp-subtitle">Research Intern</div>
-                <div class="exp-date">2024.10 - 2025.6</div>
-                <div style="font-size:0.9em; color:#666; margin-top:5px;">
-                    Worked on reinforcement learning for large language models.
+
+            <figure class="portrait">
+                <img src="images/me.jpg" alt="Portrait of Hongcan Guo">
+            </figure>
+        </section>
+
+        <hr class="section-sep" aria-hidden="true">
+
+        <!-- News -->
+        <section id="news">
+            <header class="section-title">
+                <span class="num">I.</span>
+                <h2>News</h2>
+                <span class="rule"></span>
+            </header>
+            <ul class="news-list">
+                <li>
+                    <span class="date-tag">2025/11/08</span>
+                    <span>One paper accepted to <strong>AAAI 2026</strong> <span class="oral-tag">Oral</span>.</span>
+                </li>
+                <li>
+                    <span class="date-tag">2025/09/19</span>
+                    <span>One paper accepted to <strong>NeurIPS 2025</strong> <span class="oral-tag">Oral</span>.</span>
+                </li>
+                <li>
+                    <span class="date-tag">2025/06/26</span>
+                    <span>One paper accepted to <strong>ICCV 2025</strong>.</span>
+                </li>
+                <li>
+                    <span class="date-tag">2025/06/09</span>
+                    <span>One paper accepted to <strong>IEEE JSAC</strong>.</span>
+                </li>
+                <li>
+                    <span class="date-tag">2025/03/22</span>
+                    <span>One paper accepted to <strong>IEEE JSAC</strong>.</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+            <header class="section-title">
+                <span class="num">II.</span>
+                <h2>Education</h2>
+                <span class="rule"></span>
+            </header>
+            <div class="experience-item">
+                <div class="logo-box">
+                    <img src="images/bupt_logo.png" alt="BUPT logo">
                 </div>
+                <div class="exp-details">
+                    <div class="exp-title">Beijing University of Posts and Telecommunications</div>
+                    <div class="exp-subtitle">B.Eng. in Artificial Intelligence</div>
+                </div>
+                <div class="exp-date">2022 — Present</div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="publications">
-        <h2>Selected Publications</h2>
-        <div class="legend" style="font-size: 0.9em; color: #666; margin-top: 10px;">
-            <span><sup>*</sup> Equal contribution</span>
-            <span style="margin-left: 15px;"><sup>✉</sup> Corresponding author</span>
-        </div>
-
-        <div class="paper-item">
-            <div class="paper-img-container">
-                <img src="images/paper/nips2025_moe.jpg" alt="nips_moe" class="paper-img">
+        <!-- Experience -->
+        <section id="experience">
+            <header class="section-title">
+                <span class="num">III.</span>
+                <h2>Experience</h2>
+                <span class="rule"></span>
+            </header>
+            <div class="experience-item">
+                <div class="logo-box">
+                    <img src="images/bytedance_logo.svg" alt="ByteDance Seed logo">
+                </div>
+                <div class="exp-details">
+                    <div class="exp-title">ByteDance Seed</div>
+                    <div class="exp-subtitle">Research Intern</div>
+                    <div class="exp-note">Diffusion models for unified generation tasks.</div>
+                </div>
+                <div class="exp-date">2025.06 — Present</div>
             </div>
-            <div class="paper-info">
-                <span class="conf-badge badge-neurips">NeurIPS 2025</span>
-                <a href="#" class="paper-title">Advancing Expert Specialization for Better MoE</a>
-                <div class="author-list">
-                    <span class="me">Hongcan Guo</span><sup>*</sup>, Haolang Lu<sup>*</sup>, Guoshun Nan<sup>✉</sup>, Bolun Chu, Jialin Zhuang, Yuan Yang, Wenhao Che, Sicong Leng, Qimei Cui, Xudong Jiang
+            <div class="experience-item">
+                <div class="logo-box">
+                    <img src="images/teleai_logo.jpeg" alt="TeleAI logo">
+                </div>
+                <div class="exp-details">
+                    <div class="exp-title">Institute of Artificial Intelligence, China Telecom (TeleAI)</div>
+                    <div class="exp-subtitle">Research Intern</div>
+                    <div class="exp-note">Reinforcement learning for large language models.</div>
+                </div>
+                <div class="exp-date">2024.10 — 2025.06</div>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications">
+            <header class="section-title">
+                <span class="num">IV.</span>
+                <h2>Selected Publications</h2>
+                <span class="rule"></span>
+            </header>
+            <div class="legend">
+                <span><sup>*</sup> Equal contribution</span>
+                <span><sup>&#9993;</sup> Corresponding author</span>
+            </div>
+
+            <article class="paper-item">
+                <div class="paper-img-container">
+                    <img src="images/paper/nips2025_moe.jpg" alt="NeurIPS 2025 MoE teaser" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="conf-badge badge-neurips">NeurIPS 2025</span>
+                    <a href="https://arxiv.org/pdf/2505.22323" class="paper-title">Advancing Expert Specialization for Better Mixture-of-Experts</a>
+                    <div class="author-list">
+                        <span class="me">Hongcan Guo</span><sup>*</sup>, Haolang Lu<sup>*</sup>, Guoshun Nan<sup>&#9993;</sup>, Bolun Chu, Jialin Zhuang, Yuan Yang, Wenhao Che, Sicong Leng, Qimei Cui, Xudong Jiang
                     </div>
-                <div class="venue">
-                    Annual Conference on Neural Information Processing Systems (NeurIPS), 2025 <span style="color:#e53935; font-weight:bold;">(Oral)</span>
+                    <div class="venue">
+                        Annual Conference on Neural Information Processing Systems (NeurIPS), 2025
+                        <span class="oral-tag">Oral</span>
+                    </div>
+                    <div class="btn-group">
+                        <a href="https://arxiv.org/pdf/2505.22323" class="btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <a href="https://github.com/HongcanGuo/Auxloss-For-Advancing-Expert-Specialization" class="btn"><i class="fab fa-github"></i> Code</a>
+                    </div>
                 </div>
-                <div class="btn-group">
-                    <a href="https://arxiv.org/pdf/2505.22323" class="btn">PDF</a>
-                    <a href="https://github.com/HongcanGuo/Auxloss-For-Advancing-Expert-Specialization" class="btn">Code</a>
+            </article>
+
+            <article class="paper-item">
+                <div class="paper-img-container">
+                    <img src="images/paper/aaai2026_rolling.jpg" alt="AAAI 2026 Rolling Stone teaser" class="paper-img">
                 </div>
+                <div class="paper-info">
+                    <span class="conf-badge badge-aaai">AAAI 2026</span>
+                    <a href="https://arxiv.org/pdf/2508.09155" class="paper-title">A Rolling Stone Gathers No Moss: Adaptive Policy Optimization for Stable Self-Evaluation in Large Multimodal Models</a>
+                    <div class="author-list">
+                        Wenkai Wang, <span class="me">Hongcan Guo</span>, Zheqi Lv, Shengyu Zhang<sup>&#9993;</sup>
+                    </div>
+                    <div class="venue">
+                        Annual AAAI Conference on Artificial Intelligence (AAAI), 2026
+                        <span class="oral-tag">Oral</span>
+                    </div>
+                    <div class="btn-group">
+                        <a href="https://arxiv.org/pdf/2508.09155" class="btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <a href="#" class="btn"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paper-item">
+                <div class="paper-img-container">
+                    <img src="images/paper/iccv2025_longvideo.jpg" alt="ICCV 2025 VideoMiner teaser" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="conf-badge badge-iccv">ICCV 2025</span>
+                    <a href="https://arxiv.org/pdf/2510.06040" class="paper-title">VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via Tree-based Group Relative Policy Optimization</a>
+                    <div class="author-list">
+                        Xinye Cao<sup>*</sup>, <span class="me">Hongcan Guo</span><sup>*</sup>, Jiawen Qian<sup>*</sup>, Guoshun Nan<sup>&#9993;</sup>, Chao Wang, Yuqi Pan, Tianhao Hou, Xiaojuan Wang, Yutong Gao
+                    </div>
+                    <div class="venue">
+                        International Conference on Computer Vision (ICCV), 2025
+                    </div>
+                    <div class="btn-group">
+                        <a href="https://arxiv.org/pdf/2510.06040" class="btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <a href="https://github.com/caoxinye/VideoMiner" class="btn"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <div class="rp-read-more">
+                <a href="publications.html">All publications &rarr;</a>
             </div>
-        </div>
+        </section>
 
-        <div class="paper-item">
-            <div class="paper-img-container">
-                <img src="images/paper/aaai2026_rolling.jpg" alt="aaai2026_rolling" class="paper-img">
+        <!-- Recent posts -->
+        <section id="posts">
+            <header class="section-title">
+                <span class="num">V.</span>
+                <h2>Recent Notes</h2>
+                <span class="rule"></span>
+            </header>
+            <div class="rp-item">
+                <div class="rp-date">2025/11</div>
+                <a href="posts/2025-discrete-diffusion.html" class="rp-title">Discrete Diffusion for Language Tasks</a>
             </div>
-            <div class="paper-info">
-                <span class="conf-badge badge-aaai">AAAI 2026</span>
-                <a href="#" class="paper-title">A Rolling Stone Gathers No Moss: Adaptive Policy Optimization for Stable Self-Evaluation in Large Multimodal Models</a>
-                <div class="author-list">
-                    Wenkai Wang, <span class="me">Hongcan Guo</span>, Zheqi Lv, Shengyu Zhang<sup>✉</sup>
-                </div>
-                <div class="venue">
-                    Annual AAAI Conference on Artificial Intelligence (AAAI), 2026 <span style="color:#e53935; font-weight:bold;">(Oral)</span>
-                </div>
-                <div class="btn-group">
-                    <a href="https://arxiv.org/pdf/2508.09155" class="btn">PDF</a>
-                    <a href="#" class="btn">Code</a>
-                </div>
+            <div class="rp-item">
+                <div class="rp-date">2025/10</div>
+                <a href="posts/2025-understanding-diffusions.html" class="rp-title">Understanding Diffusion Models: A Deep Dive</a>
             </div>
-        </div>
-
-        <div class="paper-item">
-            <div class="paper-img-container">
-                <img src="images/paper/iccv2025_longvideo.jpg" alt="iccv2025_longvideo" class="paper-img">
+            <div class="rp-read-more">
+                <a href="blog.html">All notes &rarr;</a>
             </div>
-            <div class="paper-info">
-                <span class="conf-badge badge-iccv">ICCV 2025</span>
-                <a href="#" class="paper-title">VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via Tree-based Group Relative Policy Optimization</a>
-                <div class="author-list">
-                     Xinye Cao<sup>*</sup>, <span class="me">Hongcan Guo<sup>*</sup></span>, Jiawen Qian<sup>*</sup>, Guoshun Nan<sup>✉</sup>, Chao Wang, Yuqi Pan, Tianhao Hou, Xiaojuan Wang, Yutong Gao
-                </div>
-                <div class="venue">
-                    International Conference on Computer Vision (ICCV), 2025
-                </div>
-                <div class="btn-group">
-                    <a href="https://arxiv.org/pdf/2510.06040" class="btn">PDF</a>
-                    <a href="https://github.com/caoxinye/VideoMiner" class="btn">Code</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="rp-read-more">
-            <a href="publications.html">&rarr; all publications</a>
-        </div>
-    </section>
+        </section>
 
-    <section id="honors">
-    </section>
+        <!-- Visitors -->
+        <section id="Visitors">
+            <header class="section-title">
+                <span class="num">VI.</span>
+                <h2>Visitors</h2>
+                <span class="rule"></span>
+            </header>
+            <script id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=nOhSZKPI_B9mrQYVl2I_lsyLHuZGBO1Pk9neTUvi7eE&amp;cl=fbfaf6&amp;w=a"></script>
+        </section>
 
-    <section class="recent-posts">
-        <h2>Recent Posts</h2>
-        <div class="rp-item">
-            <div class="rp-date">2025/11</div>
-            <a href="posts/2025-discrete-diffusion.html" class="rp-title">Discrete Diffusion for Language Task</a>
-        </div>
-        <div class="rp-item">
-            <div class="rp-date">2025/10</div>
-            <a href="posts/2025-understanding-diffusions.html" class="rp-title">Understanding Diffusion Models: A Deep Dive</a>
-        </div>
-        
-        <div class="rp-read-more">
-            <a href="blog.html">&rarr; all posts</a>
-        </div>
-    </section>
+    </div>
+</main>
 
-    <section id="Visitors">
-        <h2>Visitors</h2>
-        <script id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=nOhSZKPI_B9mrQYVl2I_lsyLHuZGBO1Pk9neTUvi7eE&amp;cl=ffffff&amp;w=a"></script>
-    </section>
-    
-    <footer style="text-align: center; margin-top: 80px; padding-bottom: 40px; color: #a0aec0; font-size: 0.8em;">
-        &copy; 2025 Hongcan Guo. All rights reserved.
-    </footer>
-
-
-</div>
+<footer class="site-footer">
+    <span>&copy; 2025 Hongcan Guo</span>
+    <span class="sep">·</span>
+    <span>Beijing</span>
+    <span class="sep">·</span>
+    <span>Built with care in HTML &amp; CSS</span>
+</footer>
 
 </body>
 </html>

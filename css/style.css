@@ -565,6 +565,23 @@ section.is-visible .section-title .rule { transform: scaleX(1); }
     transition: transform .4s var(--ease-out);
 }
 .experience-item:hover .logo-box img { transform: scale(1.04); }
+.logo-text-box span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 42px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    background-color: rgba(107, 45, 47, 0.04);
+    transition: transform .4s var(--ease-out);
+}
+.experience-item:hover .logo-text-box span { transform: scale(1.04); }
 
 .exp-details { min-width: 0; }
 .exp-title {
